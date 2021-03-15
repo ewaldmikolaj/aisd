@@ -1,6 +1,13 @@
 #include <iostream>
 #include <algorithm>
 
+//sortowania przez wybieranie działa tak, że:
+// program iteruje od zera
+// szuka najmniejszego elementu
+// zamienia go z obecnym elementem, a następnie przechodzi na następny element
+// cykl się powtarza
+// O(n^2)
+
 int argmin(int arr[], int n, int m) {
   int min_argument = n;
   for (int i = n + 1; i < m; i++) {
