@@ -270,6 +270,5 @@ int main(int argc, char **argv) {
                     (double)deletion_time_total / CLOCKS_PER_SEC / n / REPETITIONS);
         }
     }
-
     return 0;
 }
